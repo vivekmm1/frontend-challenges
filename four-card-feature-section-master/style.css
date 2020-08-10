@@ -1,0 +1,88 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+body{
+    text-align: center;
+    font-size: 15px;
+    
+}
+div{
+  
+    height: 200px;
+    width: 25%;
+    display: flexbox;
+    box-shadow: 5px 5px 5px 5px rgb(158, 154, 154);
+}
+.supervisor{
+ 
+    border-top: 3px solid hsl(180, 62%, 55%) ;
+    position: absolute;
+    left: 5%;
+    top: 40%;
+
+}
+.teambuilder{
+    border-top: 3px solid hsl(0, 78%, 62%) ;
+    position: absolute;
+left: 35%;
+top: 20%;
+}
+.karma{
+    border-top: 3px solid hsl(34, 97%, 64%) ;
+position: absolute;
+left: 35%;
+top: 60%;
+}
+.calculator{
+    border-top: 3px solid hsl(212, 86%, 64%) ;
+    position: absolute;
+    left: 65%;
+    top: 40%;
+
+}
+img{
+    margin-left: 50%;
+    margin-top: 20px;
+}
+p{
+    color: hsl(229, 6%, 66%);
+    font-size: 12px;
+}
+h3{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+p{
+    font-weight: 200;
+}
+@media screen and (max-width:850px){
+    div{
+        width: 50%;
+    }
+    .supervisor{
+       top:20%;
+       left: 35%;
+    }
+    .teambuilder{
+        left: 35%;
+        top: 55%;
+    }
+    .karma{
+        left: 35%;
+        top: 90%; 
+    }
+    .calculator{
+        left: 35%;
+        top: 125%;
+    }
+}
